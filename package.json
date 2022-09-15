@@ -1,0 +1,28 @@
+{
+  "name": "animate",
+  "version": "1.0.0",
+  "description": "A NPM Package for animating Elements.",
+  "main": "dist/animate.cjs.js",
+  "module": "dist/animate.esm.js",
+  "browser": "dist/animate.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harry-Hopkinson/animate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harry-Hopkinson/animate/issues"
+  },
+  "homepage": "https://github.com/Harry-Hopkinson/animate#readme",
+  "dependencies": {
+    "@types/lodash.debounce": "^4.0.7",
+    "@types/lodash.throttle": "^4.1.7",
+    "lodash.debounce": "^4.0.8",
+    "lodash.throttle": "^4.1.1"
+  }
+}
